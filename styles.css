@@ -140,12 +140,20 @@ main{
 
 /* Tabla */
 
+.main-tables-container{
+    display: flex;
+    height: 390px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity; 
+}
+
 .main-currency-table{
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
+    margin: 0 40px 0 40px;
     font-family: "Inter", sans-serif;
 }
 
